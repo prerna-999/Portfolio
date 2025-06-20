@@ -31,6 +31,10 @@ export const Banner = ({ title, description, buttonText, socialLinks }) => {
                     </div>
                 </div>
             </div>
+            <div>
+                
+            </div>
         </section>
+        
     );
 };
