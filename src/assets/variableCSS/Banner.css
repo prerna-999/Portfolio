@@ -1,0 +1,5 @@
+.banner{padding: 50px;}
+.image{width: 80%; }
+.icon-content{display: flex; gap: 20px !important;}
+.icon{display: flex;justify-content: space-between;align-items: center;}
+.icon a i {color: black; font-size: larger;}

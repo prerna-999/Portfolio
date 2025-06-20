@@ -1,0 +1,6 @@
+.navbar .logo{font-family: 'Courier New', Courier, monospace;text-decoration: none;color: black;font-weight: 600;}
+.navbar .navbar-nav{width: 90%; justify-content: center;}
+.navbar .nav-link{padding: 10px 40px !important;}
+.navbar .icon{display: flex; gap: 20px !important;}
+.btn{color: rgb(87, 86, 86); border-color: black !important;}
+.btn:hover{color:rgb(9, 9, 9);background-color: white !important;border-color:black !important ;}
