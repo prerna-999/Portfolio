@@ -1,6 +1,6 @@
 
 
-import prerna from '../assets/images/prerna.jpg';
+// import prerna from '../assets/images/prerna.jpg';
 import '../assets/variableCSS/Banner.css';
 
 export const Banner = ({ title, description, buttonText, socialLinks }) => {
@@ -27,7 +27,7 @@ export const Banner = ({ title, description, buttonText, socialLinks }) => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <img src={prerna} alt="Prerna" className='image' />
+                        {/* <img src={prerna} alt="Prerna" className='image' /> */}
                     </div>
                 </div>
             </div>
