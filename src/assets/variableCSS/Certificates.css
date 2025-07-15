@@ -1,0 +1,12 @@
+.container{max-width: 1200px ; margin: 0 auto;}
+.certificates {color: #003366 !important;padding: 60px 20px;background-color: #bebef075;}
+.certificates h2 {text-align: center; font-size: 50px; margin-bottom:30px;font-weight: 600;}
+.certificate {display: grid;grid-template-columns: repeat(2, minmax(500px, 1fr));gap: 25px;}
+.certificate-Card {background: white;padding: 20px 25px;border-radius: 12px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);border-right: 5px solid #003366; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+.certificate-Card:hover  {box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);transform: translateY(-8px);}
+.certificate-Card h3 {font-size: 20px;margin-bottom: 10px;}
+.certificate-Card p {margin: 6px 0;font-size: 15px;color: #333;}
+
+
+
+

@@ -1,0 +1,14 @@
+.contact .container{max-width: 1200px ; margin: 0 auto;}
+.contact {padding: 60px 20px;background-color: #bebef075;display: flex;justify-content: center;align-items: center;min-height: 100vh;}
+.contact .contact-form {background: #fff;padding: 40px 30px;border-radius: 16px;box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);max-width: 500px;margin: 0 auto;width: 100%;}
+.contact .contact-heading {font-size: 25px;text-align: center;color: #777;letter-spacing: 1.5px;margin-bottom: 8px;}
+.contact .contact-title {font-size: 36px;font-weight: bold;text-align: center;margin-bottom: 30px;color: #0d264a;}
+.contact .highlight {color: #0066cc;}
+.contact form {display: flex;flex-direction: column;gap: 18px;}
+.contact .label {font-size: 15px;font-weight: 600;color: #0d264a;}
+.contact .text {width: 100%;padding: 14px 16px;border: 1.5px solid #ccc;border-radius: 8px;font-size: 15px;transition: all 0.3s ease;}
+.contact .text:focus {outline: none;border-color: #0d264a;box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);}
+.contact textarea.text {resize: vertical;min-height: 120px;}
+.contact .submit-btn {background-color: #0d264a;color: white;border: none;padding: 14px 20px;border-radius: 8px;font-size: 16px;cursor: pointer;align-self: flex-start;}
+.contact .submit-btn:hover {background-color: #004fa3;}
+.contact .contact-input{background-color: #bebef075;}

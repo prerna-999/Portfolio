@@ -2,6 +2,12 @@
 
 
 import { Banner } from "../Components/Banner";
+import myresume from "../assets/PrernaResume.pdf"
+import { About } from "./About";
+import { Certificates } from "./Certificates";
+import { Education } from "./Education";
+import { Projects } from "./Project";
+import { Skills } from "./Skills";
 
 export const Home = () => {
     const navLinks = [
@@ -13,19 +19,29 @@ export const Home = () => {
     ];
 
     const socialLinks = [
-        { url: "https://linkedin.com", iconClass: "fa-brands fa-linkedin" },
+        { url: "https://www.linkedin.com/in/prernathakur9726/", iconClass: "fa-brands fa-linkedin" },
         { url: "https://instagram.com", iconClass: "fa-brands fa-instagram" },
         { url: "https://facebook.com", iconClass: "fa-brands fa-square-facebook" },
     ];
+    const resume ={
+        label: "Download Resume",
+        url: myresume
+      }
 
     return (
         <>
             <Banner
                 title="I'M PRERNA A WEB DEVELOPER"
-                description="I create clean, responsive, and user-friendly websites with a focus on modern design and performance."
+                description= {<> I create clean, responsive, and user-friendly websites <br /> with a focus on modern design and performance.</>}
                 buttonText="LET'S TALK"
                 socialLinks={socialLinks}
+                resume={resume}
             />
+            <About/>
+            <Education/>
+            <Projects/>
+            <Certificates/>
+            <Skills/>
            
         </>
     );

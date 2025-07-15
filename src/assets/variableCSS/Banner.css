@@ -1,5 +1,14 @@
-.banner{padding: 50px;}
-.image{width: 80%; }
-.icon-content{display: flex; gap: 20px !important;}
-.icon{display: flex;justify-content: space-between;align-items: center;}
-.icon a i {color: black; font-size: larger;}
+.container{max-width: 1200px ; margin: 0 auto;}
+.banner{padding: 80px 0px; background-color: #bebef075;}
+.banner .image{width: 90%; object-fit: cover;border-radius: 30px; box-shadow: 0px 0px 10px 4px #0d264a;}
+.banner .icon-content{display: flex; gap: 20px !important;}
+.banner .icon{display: flex;justify-content: space-between;align-items: center;}
+.banner .icon a i {color: black; font-size:30px;}
+.btn-primary{border-color: #0d264a !important; background-color: #0d264a !important; color: white !important;}
+.btn-primary:hover{background-color: #164382 !important;}
+.banner .banner-text{padding: 60px 0px;color: #0d264a;}
+.banner p{padding: 10px 0px;}
+.banner h5{padding: 10px 0px;}
+.resume-download{color:#0d264a; text-decoration: none; font-size: 20px;}
+.banner .resume{padding: 20px 0px;}
+

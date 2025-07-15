@@ -1,6 +1,11 @@
-.navbar .logo{font-family: 'Courier New', Courier, monospace;text-decoration: none;color: black;font-weight: 600;}
+.container{max-width: 1200px ; margin: 0 auto;}
+.navbar {padding: 10px 0px;}
+.navbar .logo{font-family: 'Courier New', Courier, monospace;text-decoration: none;color: black;font-weight: 600;color: #0d264a !important;}
 .navbar .navbar-nav{width: 90%; justify-content: center;}
-.navbar .nav-link{padding: 10px 40px !important;}
+.navbar .nav-link{padding: 10px 30px !important;color: #0d264a;}
+.nav-link:hover{color:  #164382 !important;}
 .navbar .icon{display: flex; gap: 20px !important;}
-.btn{color: rgb(87, 86, 86); border-color: black !important;}
-.btn:hover{color:rgb(9, 9, 9);background-color: white !important;border-color:black !important ;}
+.btn-outline-primary{color: #0d264a !important;border-color: #0d264a !important;}
+.btn-outline-primary:hover{background-color: #0d264a;color: white !important;}
+.btn{padding:10px 30px ;border-radius: 3px;}
+.navbar h4{margin: 0px;}

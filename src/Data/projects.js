@@ -9,5 +9,15 @@ export const projects = [
     name: "JavaScript Quiz",
     stack: "React.js",
     description: "A dynamic JavaScript quiz app that tests knowledge with multiple-choice questions, timer, and score tracking. Built with React for interactive UI."
+  },
+  {
+    name: "JavaScript Quiz",
+    stack: "React.js",
+    description: "A dynamic JavaScript quiz app that tests knowledge with multiple-choice questions, timer, and score tracking. Built with React for interactive UI."
+  },
+  {
+    name: "JavaScript Quiz",
+    stack: "React.js",
+    description: "A dynamic JavaScript quiz app that tests knowledge with multiple-choice questions, timer, and score tracking. Built with React for interactive UI."
   }
 ];

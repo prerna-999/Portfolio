@@ -29,7 +29,7 @@ export const Header = ({ siteName, navLinks }) => {
                             ))}
                         </ul>
                         <div className="icon">
-                            <Link to="/contact" className="btn btn-outline-success">Contact</Link>
+                            <Link to="/contact" className="btn btn-outline-primary">Contact</Link>
                         </div>
                     </div>
                 </div>

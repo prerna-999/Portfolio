@@ -28,7 +28,8 @@
 import { EducationCard } from "../Components/Educationcard";
 import { educationData } from "../Data/educationdata";
 import { Experience } from "../Components/Experience";
-import '../assets/variableCSS/Education.css';
+import '../assets/variableCSS/Education.css'
+
 
 export const Education = () => {
   return (

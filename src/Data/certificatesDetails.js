@@ -7,13 +7,13 @@ export const certificatesDetails = [
     year: 2025
   },
   {
-    name: "Node.js",
+    name: "Node.js ",
     category: "Backend",
     issuedBy: "Infosys",
     year: 2025
   },
   {
-    name: "HTML",
+    name: "MongoDB",
     category: "Frontend",
     issuedBy: "Infosys",
     year: 2025

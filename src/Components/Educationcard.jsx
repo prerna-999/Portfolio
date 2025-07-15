@@ -15,7 +15,7 @@
 export const EducationCard = ({ degree, institution, board, duration }) => {
   return (
     <div className="conatiner">
-      <div className="education-card fade-in">
+      <div className="education-card ">
         <h3 className="education-degree">🎓 {degree}</h3>
         <p><strong>Institution:</strong> {institution}</p>
         <p><strong>Board/University:</strong> {board}</p>

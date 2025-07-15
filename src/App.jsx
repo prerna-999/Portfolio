@@ -7,6 +7,7 @@ import { Projects } from './Pages/Project';
 import { Certificates } from './Pages/Certificates';
 import { Skills } from './Pages/Skills';
 import { Contact } from './Pages/Contact';
+import { Footer } from './Components/Footer';
 
 function App() {
   const navLinks = [
@@ -18,6 +19,7 @@ function App() {
   ];
 
   return (
+    <div>
     <BrowserRouter>
       <Header siteName="Prerna" navLinks={navLinks} />      
       <Routes>
@@ -30,6 +32,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
+    <Footer/>
+    </div>
   );
 }
 

@@ -1,45 +1,60 @@
-// export const about = {
-//   name: "Prerna Thakur",
-//   title: "MERN Stack Developer",
-//   summary:
-//     "A motivated and adaptable Computer Science graduate with expertise in the MERN stack—MongoDB, Express.js, React.js, and Node.js—along with HTML, CSS, Bootstrap, JavaScript, and UI design. Passionate about building responsive, user-friendly interfaces, with strong problem-solving skills and attention to detail. Eager to contribute to a dynamic development team and grow within a forward-thinking organization."
-// };
+
+import cv from '../assets/images/cv.png'
+import portfolio from '../assets/images/portfolio.png'
+import github from '../assets/images/github.png'
+import linkedin from '../assets/images/linkedin.png'
 
 
 export const about = {
   name: "Prerna Thakur",
   title: "MERN Stack Developer",
-  summary:
-    "🎯 A highly motivated Computer Science graduate skilled in building full-stack web apps using the MERN stack — MongoDB, Express.js, React.js, and Node.js. \n\n💡 I love turning ideas into beautiful, responsive websites and solving complex frontend/backend challenges. I bring strong skills in UI design, debugging, and delivering clean, maintainable code.",
-  details: [
-    "🌐 Proficient in HTML, CSS, JavaScript, Bootstrap",
-    "🛠️ Experience with Git, GitHub, VS Code",
-    // "🧠 Strong understanding of REST APIs and CRUD operations",
-    "🎨 Passionate about UIand performance optimization",
-    "📚 Always learning new tools and frameworks",
+  image: "/profile.jpg", 
+
+  summary: ["Hello! I'm Prerna, a dedicated and enthusiastic MERN Stack Developer ready to kick-start my career in web development. I have hands-on experience with the complete MERN stack—MongoDB, Express.js, React.js, and Node.js—and I’m passionate about building full-stack web applications. I also have a solid foundation in HTML5, CSS3, JavaScript, and Git for version control. I’m a quick learner, love solving real-world problems, and am eager to contribute to innovative development teams while continuously improving my skills."
   ],
-  quote: "✨ Code is like poetry — clean, meaningful, and expressive."
+
+  details: [
+    "Proficient in HTML, CSS, JavaScript, Bootstrap",
+    "Experience with Git, GitHub, VS Code",
+    "Passionate about UI and performance optimization",
+    "Always learning new tools and frameworks"
+  ],
+
+  skills: [
+    "MongoDB", "Express.js", "React", "Node.js",
+    "JavaScript", "HTML5", "CSS3", "Bootstrap",
+    "Git", "GitHub", "VS Code", 
+  ],
+
+};
+
+export const aboutLinksHeading = {
+  heading: "Connect. Code. Learn. Explore.",
+  paragraph: "Explore my links to connect, view work, resume, and projects."
 };
 
 export const aboutLinks = [
+ 
   {
     label: "LinkedIn",
-    icon: "🔗",
-    url: "https://www.linkedin.com/in/prerna-thakur-16aa24305/",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/prernathakur9726/"
   },
   {
     label: "GitHub",
-    icon: "💻",
-    url: "https://github.com/prerna-999",
+    image: github,
+    url: "https://github.com/prerna-999"
   },
   {
     label: "Resume",
-    icon: "📄",
-    url: "/resume.pdf",
+    image: cv,
+    url: "/resume.pdf"
   },
   {
     label: "Portfolio",
-    icon: "🌐",
-    url: "https://prerna-portfolio.netlify.app",
-  },
+    image: portfolio,
+    url: "https://prerna-portfolio.netlify.app"
+  }
 ];
+
+

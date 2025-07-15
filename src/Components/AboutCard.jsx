@@ -1,38 +1,25 @@
-// export const AboutCard = ({ name, title, summary }) => {
-//     return (
-//         <div className="container">
-//             <div className="about-card">
-//                 <div className="row">
-//                     <div className="col-6">
-//                         <h3 >{name}</h3>
-//                         <h4>{title}</h4>
-//                     </div>
-//                     <div className="col-6">
-//                         <p>{summary}</p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
 
-export const AboutCard = ({ name, title, summary, details = [], quote, links }) => {
+import prerna from '../assets/images/prerna.jpg'
+export const AboutCard = ({ name, title, summary = [], quote, links, skills = [], heading, paragraph}) => {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="about-card">
         <div className="row">
           {/* Left Column */}
-          <div className="col-6">
-            <h3>{name}</h3>
-            <h4>{title}</h4>
-
-            <ul>
+          <div className="col-6 ">
+            <div className="profile-image">
+              <img src={prerna} alt={`${name}'s profile`} className='image' />
+            </div>
+            <h4>{heading}</h4>
+            <p>{paragraph}</p>
+            <ul className="about-links">
               {links.map((link, index) => (
                 <li key={index}>
-                  {link.icon}{" "}
+                  {" "}
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    {link.label}
+                    <img src={link.image || link.icon} alt={link.label} style={{ width: '30px' }} />
                   </a>
+
                 </li>
               ))}
             </ul>
@@ -41,13 +28,25 @@ export const AboutCard = ({ name, title, summary, details = [], quote, links }) 
           </div>
 
           {/* Right Column */}
-          <div className="col-6">
-            <p>{summary}</p>
-            <ul>
-              {details.map((point, idx) => (
-                <li key={idx}>{point}</li>
+          <div className="col-6 ">
+            <h3>{name}</h3>
+            <h4>{title}</h4>
+            <div className="summary">
+              {summary.map((para, idx) => (
+                <p key={idx}>{para}</p>
               ))}
-            </ul>
+            </div>
+
+            <div className="skills-section">
+              <h5>Key Skills:</h5>
+              <div className="skills-list">
+                <ul>
+                  {skills.map((skill, idx) => (
+                    <li key={idx} className="skill-badge">{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

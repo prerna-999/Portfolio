@@ -16,11 +16,11 @@ export const educationData = [
     institution: "Govt. Post Graduate College Bilaspur",
     board: "Himachal Pradesh University (HPU)",
     duration: "2018–2022"
-  },
-  {
-    degree: "Senior Secondary Education (10+2), Science",
-    institution: "Govt. Sen. Sec. School Barmana (H.P.)",
-    board: "Himachal Pradesh Board of School Education (HPBOSE)",
-    duration: "2016–2018"
   }
+  // {
+  //   degree: "Senior Secondary Education (10+2), Science",
+  //   institution: "Govt. Sen. Sec. School Barmana (H.P.)",
+  //   board: "Himachal Pradesh Board of School Education (HPBOSE)",
+  //   duration: "2016–2018"
+  // }
 ];
