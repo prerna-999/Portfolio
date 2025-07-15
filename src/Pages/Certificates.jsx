@@ -2,7 +2,7 @@
 
 import { CertificateCard } from "../Components/CertificateCard";
 import { certificatesDetails } from "../Data/certificatesDetails";
-import '../assets/variableCSS/certificates.css'
+import "../assets/variableCSS/Certificates.css"
 
 export const Certificates = () => {
   return (
