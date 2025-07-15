@@ -1,6 +1,5 @@
 
-
-
+import "../assets/variableCSS/Home.css"
 import { Banner } from "../Components/Banner";
 import myresume from "../assets/PrernaResume.pdf"
 import { About } from "./About";
@@ -23,26 +22,28 @@ export const Home = () => {
         { url: "https://instagram.com", iconClass: "fa-brands fa-instagram" },
         { url: "https://facebook.com", iconClass: "fa-brands fa-square-facebook" },
     ];
-    const resume ={
+    const resume = {
         label: "Download Resume",
         url: myresume
-      }
+    }
 
     return (
         <>
             <Banner
                 title="I'M PRERNA A WEB DEVELOPER"
-                description= {<> I create clean, responsive, and user-friendly websites <br /> with a focus on modern design and performance.</>}
+                description={<> I create clean, responsive, and user-friendly websites <br /> with a focus on modern design and performance.</>}
                 buttonText="LET'S TALK"
                 socialLinks={socialLinks}
                 resume={resume}
             />
-            <About/>
-            <Education/>
-            <Projects/>
-            <Certificates/>
-            <Skills/>
-           
+            <div className="scroll">
+                <About  className=" about-home"/>
+                <Education />
+                <Projects />
+                <Certificates />
+                <Skills />
+            </div>
+
         </>
     );
 };
