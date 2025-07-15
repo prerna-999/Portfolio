@@ -7,9 +7,11 @@ import { Projects } from './Pages/Project';
 import { Certificates } from './Pages/Certificates';
 import { Skills } from './Pages/Skills';
 import { Contact } from './Pages/Contact';
-import { Footer } from './Components/Footer';
+// import { Footer } from './Components/Footer';
+import { FooterWrapper } from './Components/FooterWrapper'
 
 function App() {
+
   const navLinks = [
     { path: "/about", label: "About" },
     { path: "/education", label: "Experience" },
@@ -31,8 +33,10 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+          <FooterWrapper/>
+
     </BrowserRouter>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

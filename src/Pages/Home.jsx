@@ -7,6 +7,7 @@ import { Certificates } from "./Certificates";
 import { Education } from "./Education";
 import { Projects } from "./Project";
 import { Skills } from "./Skills";
+import { Footer } from "../Components/Footer";
 
 export const Home = () => {
     const navLinks = [
@@ -36,12 +37,23 @@ export const Home = () => {
                 socialLinks={socialLinks}
                 resume={resume}
             />
-            <div className="scroll">
-                <About  className=" about-home"/>
+            <div className="about-home">
+                <About />
+            </div>
+            <div className="about-education">
                 <Education />
+            </div>
+            <div className="about-projects">
                 <Projects />
+            </div >
+            <div className="about-certificates">
                 <Certificates />
+            </div>
+            <div className="about-skills">
                 <Skills />
+            </div>
+            <div className="about-footer">
+                <Footer />
             </div>
 
         </>

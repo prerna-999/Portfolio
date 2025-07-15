@@ -6,6 +6,7 @@ import react from '../assets/images/react.png'
 import nodejs from '../assets/images/nodejs.png'
 import expressjs from '../assets/images/expressjs.png'
 import mongodb from '../assets/images/mongodb.png'
+import wordpress from '../assets/images/wordpress.png'
 
 
 
@@ -42,20 +43,26 @@ export const skills = [
   },
   {
     id: 5,
+    percentage: 50,
+    language: "MongoDB",
+    image: mongodb
+  },
+  {
+    id: 6,
+    percentage: 50,
+    language: "WordPress",
+    image: wordpress
+  },
+  {
+    id: 7,
     percentage: 20,
     language: "Node.js",
     image: nodejs
   },
   {
-    id: 6,
+    id: 8,
     percentage: 20,
     language: "Express.js",
     image: expressjs
-  },
-  {
-    id: 7,
-    percentage: 50,
-    language: "MongoDB",
-    image: mongodb
   }
 ];
