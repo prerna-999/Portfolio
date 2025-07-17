@@ -3,6 +3,7 @@ import cv from '../assets/images/cv.png'
 import portfolio from '../assets/images/portfolio.png'
 import github from '../assets/images/github.png'
 import linkedin from '../assets/images/linkedin.png'
+import Resume from "../assets/PrernaResume.pdf"
 
 
 export const about = {
@@ -48,12 +49,12 @@ export const aboutLinks = [
   {
     label: "Resume",
     image: cv,
-    url: "/resume.pdf"
+    url: Resume
   },
   {
     label: "Portfolio",
     image: portfolio,
-    url: "https://prerna-portfolio.netlify.app"
+    url: "https://prernastack.netlify.app/"
   }
 ];
 
