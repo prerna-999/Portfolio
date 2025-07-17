@@ -10,6 +10,7 @@ import { Contact } from './Pages/Contact';
 // import { Footer } from './Components/Footer';
 import { FooterWrapper } from './Components/FooterWrapper'
 
+
 function App() {
 
   const navLinks = [

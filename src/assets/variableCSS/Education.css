@@ -3,3 +3,75 @@
 .section-title{font-size: 50px; font-weight: 600;margin-bottom: 30px; }
 .experience-card, .education-card {background: #fdfdfd;border-left: 4px solid #557a95;padding: 20px 25px;margin-bottom: 25px;border-radius: 8px;box-shadow: 0 4px 10px rgba(0,0,0,0.05);}
 .experience-role, .education-degree {font-size: 20px;font-weight: bold;color: #0d264a;margin-bottom: 10px;}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .education-card,
+  .experience-card {
+    padding: 15px 18px;
+    margin: 15px 10px;
+    border-radius: 6px;
+  }
+
+  .education-degree,
+  .experience-role {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .education-card p,
+  .experience-card p,
+  .experience-card ul {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .experience-card ul {
+    padding-left: 18px;
+  }
+
+  .experience-card ul li {
+    margin-bottom: 5px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .education-card,
+  .experience-card {
+    padding: 18px 20px;
+    margin: 15px;
+    border-radius: 6px;
+  }
+
+  .education-degree,
+  .experience-role {
+    font-size: 18px;
+  }
+
+  .education-card p,
+  .experience-card p,
+  .experience-card ul {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .experience-card ul {
+    padding-left: 18px;
+  }
+
+  .experience-card ul li {
+    margin-bottom: 6px;
+  }
+}

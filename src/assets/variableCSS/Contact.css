@@ -12,3 +12,50 @@
 .contact .submit-btn {background-color: #0d264a;color: white;border: none;padding: 14px 20px;border-radius: 8px;font-size: 16px;cursor: pointer;align-self: flex-start;}
 .contact .submit-btn:hover {background-color: #004fa3;}
 .contact .contact-input{background-color: #bebef075;}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact {
+    padding: 40px 10px;
+    min-height: auto;
+  }
+
+  .contact .contact-form {
+    padding: 25px 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+
+  .contact .contact-heading {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .contact .contact-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .contact .label {
+    font-size: 14px;
+  }
+
+  .contact .text {
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .contact textarea.text {
+    min-height: 100px;
+  }
+
+  .contact .submit-btn {
+    padding: 12px 18px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+

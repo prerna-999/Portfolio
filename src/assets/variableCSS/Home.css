@@ -3,8 +3,13 @@
 .about-projects .projects{padding: 40px 0px !important; background: transparent;}
 .about-projects .projects .project-card{background: linear-gradient(135deg, #ffffff 10%, #bebef075 50%, #0d264a 100%) !important;color: #0d264a; border:3px solid slategray}
 .about-projects .projects p{color: black !important;}
-.about-certificates .certificates{padding: 40px 0px !important;background: linear-gradient(135deg, #0d264a 10%, #bebef075 50%, #ffffff 100%) !important;}
+.about-certificates .certificates{padding: 40px 0px !important;background: linear-gradient(135deg, #0d264a 10%, #bebef075 50%, #ffffff 100%) !important; }
 .about-skills .skills{padding: 40px 0px !important;background: linear-gradient(135deg, #ffffff 10%, #bebef075 50%, #0d264a 100%) !important;}
 .about-footer .footer{background: linear-gradient(135deg, #ffffff 0%, #bebef0 35%, #0d264a 50%, #bebef0 65%, #ffffff 100%) !important; color: white !important;}
 .about-footer .footer .message:hover{color: black !important;}
 .about-footer .footer .copyright {font-size: 20px;color:white !important; }
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .about-certificates .certificates h2{color:white !important}
+}

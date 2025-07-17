@@ -29,5 +29,11 @@ export const certificatesDetails = [
     category: "Frontend and Backend",
     issuedBy: "Rackron Technologies PVT LTD",
     year: 2025
+  },
+  {
+    name: "HTML",
+    category: "Frontend ",
+    issuedBy: "FreeCode Camp",
+    year: 2025
   }
 ];

@@ -6,6 +6,64 @@
 .projects .project-card:hover {box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);transform: translateY(-8px);}
 .projects .project-card h3 {margin-bottom: 10px;font-size: 30px;}
 .projects .project-card p {color: #555;line-height: 1.5;}
+.projects .project-card a{text-decoration: none}
 
 
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .projects h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .projects .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .projects .project-card {
+    padding: 20px;
+  }
+
+  .projects .project-card h3 {
+    font-size: 22px;
+  }
+
+  .projects .project-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .projects .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0d264a;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .projects .project-grid {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 25px;
+  }
+
+  .projects .project-card {
+    padding: 20px;
+  }
+
+  .projects .project-card h3 {
+    font-size: 24px;
+  }
+
+  .projects .project-card p {
+    font-size: 14px;
+  }
+}

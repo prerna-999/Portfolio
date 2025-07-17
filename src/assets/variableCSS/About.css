@@ -9,3 +9,117 @@
 .about  .skills-list ul {display: grid;grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px;list-style-type: none; padding: 0;margin: 0;}
 .about  .skill-badge {background-color: #f0f0f0;border-radius: 20px;padding: 8px 12px;text-align: center;font-size: 14px;font-weight: 500;color: #0d264a;}
 .about .skill-badge:hover{background-color: #0d264a;color: white;transition: .4s;}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .about h3 {
+    font-size: 26px;
+  }
+
+  .about h4 {
+    font-size: 20px;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 26px;
+    text-align: justify;
+  }
+
+  .about .row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about .col-6 {
+    width: 100%;
+  }
+
+  .about .image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 3px #0d264a;
+  }
+
+  .about .about-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .about .skills-section {
+    margin-top: 20px;
+  }
+
+  .about .skills-list ul {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+  }
+
+  .about .skill-badge {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .about {
+    padding: 50px 25px;
+  }
+
+  .about h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+
+  .about h3 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .about .image {
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
+  }
+
+  .about .skills-list ul {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 10px;
+  }
+
+  .about .skill-badge {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
+
+  .about .about-links {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
