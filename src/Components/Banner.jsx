@@ -1,6 +1,7 @@
 
 import prerna from "../assets/images/prerna.jpg"
 import '../assets/variableCSS/Banner.css';
+import '../Pages/Contact'
 
 export const Banner = ({ title, description, buttonText, socialLinks, resume }) => {
     return (
