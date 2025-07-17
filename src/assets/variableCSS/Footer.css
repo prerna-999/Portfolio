@@ -21,3 +21,26 @@
   .footer .copyright:hover{color: black !important
   }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    padding: 18px 15px;
+    text-align: center;
+  }
+
+  .footer .message {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .footer .copyright {
+    font-size: 16px;
+    color: #787f88;
+  }
+
+  .footer .message:hover,
+  .footer .copyright:hover {
+    color: #0c3a7a;
+  }
+}
