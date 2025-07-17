@@ -2,7 +2,7 @@
 import "../assets/variableCSS/Home.css"
 import { Banner } from "../Components/Banner";
 import myresume from "../assets/PrernaResume.pdf"
-import { About } from "./About";
+// import { About } from "./About";
 import { Certificates } from "./Certificates";
 import { Education } from "./Education";
 import { Projects } from "./Project";
@@ -37,9 +37,9 @@ export const Home = () => {
                 socialLinks={socialLinks}
                 resume={resume}
             />
-            <div className="about-home">
+            {/* <div className="about-home">
                 <About />
-            </div>
+            </div> */}
             <div className="about-education">
                 <Education />
             </div>
